@@ -1,6 +1,6 @@
-# jayblog
+# Jay base project setup
 
-> a blog vue project
+> a vue project
 
 ## Build Setup
 
@@ -16,6 +16,13 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# 生成 element theme 变量
+npm run eti
+# 生成 element theme 并且 watch
+npm run etw
+# 生成 element theme 到 ~theme 目录
+npm run et
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
